@@ -1,0 +1,17 @@
+name: RacesPlugin
+version: 2.0.0
+main: com.races.plugin.RacesPlugin
+api-version: '1.21'
+description: Advanced Race System — 6 races with V1/V2
+author: RacesDev
+
+commands:
+  racechange:
+    description: Change a player's race (op only)
+    usage: /racechange <player> <race>
+    permission: races.admin
+
+permissions:
+  races.admin:
+    description: Allows changing player races
+    default: op
